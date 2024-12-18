@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMT BOUTIQUE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>TMT BOUTIQUE</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#acheter">Boutique</a></li>
+                <li><a href="#commande">Commande</a></li>
+                <li><a href="#contacter">Contacter</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Acheter -->
+    <section id="acheter" class="section">
+        <div class="container">
+            <h2>Achetez nos produits</h2>
+            <div class="products">
+                <div class="product" id="brosse à dent">
+                    <img src="brosse.png" alt="Brosse à dent">
+                    <h3>Distributeur dentifrice avec organisateur de 5 brosse à dent</h3>
+                    <p>2 500 CFA</p>
+                    <button class="add-to-cart" data-product="Brosse à dent" data-name="Brosse à dent" data-price="2500" id="Brosse à dent">Ajouter au panier</button>
+
+                           
+
+                </div>
+                <div class="product">
+                    <img src="clé.jpg" alt="clé USB">
+                    <h3>Clé USB 2.0 en forme de stylo plume 16 Go - Clé USB - Clé USB</h3>
+                    <p>5 000 CFA</p>
+                    <button class="add-to-cart" data-product="Clé USB" data-name="Clé USB" data-price="5000">Ajouter au panier</button>
+                </div>
+                <div class="product">
+                    <img src="produit3.jpg" alt="Produit 3">
+                    <h3>Produit 3</h3>
+                    <p>35 000 CFA</p>
+                    <button class="add-to-cart" data-product="3" data-name="Produit 3" data-price="35000">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Commande -->
+    <section id="commande" class="section">
+        <div class="container">
+            <h2>Votre Commande</h2>
+            <div id="commande-items"></div>
+            <div id="commande-total">
+                <p>Total : <span id="total-price">0 CFA</span></p>
+            </div>
+            <button id="acheter-btn">Acheter</button>
+        </div>
+    </section>
+
+    <!-- Section Contacter -->
+    <section id="contacter" class="section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Besoin d'aide ? Contactez-nous via WhatsApp.</p>
+            <a href="https://wa.me/+242065737226" target="_blank" class="whatsapp-button">Contacter via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TMT Boutique - Tous droits réservés - &copyLie_Vesly</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
